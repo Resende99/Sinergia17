@@ -1,0 +1,20 @@
+{
+  "name": "a3-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "build": "npm install sqlite3 --build-from-source"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mssql": "^11.0.1",
+    "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": "18.x",
+    "node-gyp": "^10.1.0"
+  }
+}
