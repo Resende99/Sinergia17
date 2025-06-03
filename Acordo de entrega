@@ -1,0 +1,44 @@
+ACORDO DE ENTREGA - Sistemas Distribuídos e Mobile
+
+Partes:
+Desenvolvedor: Gabriel Henrique Martins, Thomas Sheldon, Samuel Andrade Resende, Arthur Oliveira, Guilherme Martins Azevedo
+
+Objeto:
+Ecopoints, é um jogo ecológico e consciente, onde o jogador realiza diversas ações para ajudar no entendimento e conscientização, seja de higiene ou ao meio ambiente.
+
+Funcionamento:
+
+Ao finalizar o jogo, o tempo de conclusão do jogo é mostrado a tela, e você precisa inserir seu nome!
+No site, jogadores com melhor "tempo" são mostrados em destaque.
+
+Obrigações:
+
+Desenvolvedor: Garantir o funcionamento do jogo e fornecer suporte técnico.
+
+Jogador: Conscientização 
+
+Passíveis falhas: Sobrecarga no banco de dados
+
+Plataforma : PC
+
+Público alvo : Todos aqueles que estejam dispostos a aprender sobre as 17 ODS, e pessoas na idade de letramento, que possam compreender a escrita informada no site e jogo.
+
+[1] Usuário acessa o site
+       |
+       v
+[2] Usuário joga o jogo
+       |
+       v
+[3] Ao terminar, insere o nome -> tempo é capturado
+       |
+       v
+[4] Site envia os dados para o endpoint da API (SQL LITE)
+       |
+       v
+[5] API recebe os dados e salva no banco de dados (SQL LITE)
+       |
+       v
+[6] API consulta os melhores tempos e envia de volta ao site
+       |
+       v
+[7] Site exibe o ranking dos top 5 jogadores
