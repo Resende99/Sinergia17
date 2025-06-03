@@ -29,7 +29,7 @@ Público alvo : Todos aqueles que estejam dispostos a aprender sobre as 17 ODS, 
 [2] Usuário joga o jogo
        |
        v
-[3] Ao terminar, insere o nome -> tempo é capturado
+[3] Ao terminar, insere o nome e o tempo 
        |
        v
 [4] Site envia os dados para o endpoint da API (SQL LITE)
